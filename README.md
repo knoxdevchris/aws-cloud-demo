@@ -6,4 +6,5 @@
 
 ## How to deploy
 
-TBD
+
+Refer to this Youtube video for tutorial: https://youtu.be/ua0cb2LjCW4?si=BFVzzxjXZ8bdA0Yj
