@@ -14,14 +14,14 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Set up Java 17
-        uses: actions/setup-java@v4
+        uses: actions/setup-java@v5
         with:
           distribution: temurin
           java-version: '17'
           cache: maven
 
       - name: Run tests
-        run: ./mvnw --batch-mode test
+        run: mvn --batch-mode test
 
       - name: Build Docker image
         run: docker build -t aws-cloud-demo:ci .
