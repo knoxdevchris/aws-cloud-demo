@@ -29,6 +29,7 @@ The included Draw.io source is available in [`aws-deploy-infra.drawio`](aws-depl
 ### Prerequisites
 
 - Java 17 or newer
+- Maven 3.8 or newer
 
 Clone the repository:
 
@@ -37,16 +38,10 @@ git clone https://github.com/knoxdevchris/aws-cloud-demo.git
 cd aws-cloud-demo
 ```
 
-Run the application with the Maven Wrapper:
+Run the application:
 
 ```bash
-./mvnw spring-boot:run
-```
-
-On Windows:
-
-```powershell
-mvnw.cmd spring-boot:run
+mvn spring-boot:run
 ```
 
 Open `http://localhost:8080` in a browser.
